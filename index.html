@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html>
+<title>Mm! So Good</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css?family=Lato">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<style>
+body {font-family: "Lato", sans-serif}
+.mySlides {display: none}
+</style>
+<body>
+
+<!-- Navbar -->
+<div class="w3-top">
+  <div class="w3-bar w3-white w3-card">
+    <a class="w3-bar-item w3-button w3-padding-large w3-hide-medium w3-hide-large w3-right" href="javascript:void(0)" onclick="myFunction()" title="Toggle Navigation Menu"><i class="fa fa-bars"></i></a>
+    <a href="#" class="w3-bar-item w3-button w3-padding-large">HOME</a>
+    <a href="#about" class="w3-bar-item w3-button w3-padding-large w3-hide-small">ABOUT</a>
+    <a href="#instructions" class="w3-bar-item w3-button w3-padding-large w3-hide-small">INSTRUCTIONS</a>
+    <a href=portal.html> PORTALA </a>
+    <a href="javascript:void(0)" class="w3-padding-large w3-hover-red w3-hide-small w3-right"><i class="fa fa-search"></i></a>
+  </div>
+</div>
+
+<!-- Navbar on small screens -->
+<div id="navDemo" class="w3-bar-block w3-black w3-hide w3-hide-large w3-hide-medium w3-top" style="margin-top:46px">
+  <a href="#about" class="w3-bar-item w3-button w3-padding-large">ABOUT</a>
+  <<a href="#about" class="w3-bar-item w3-button w3-padding-large w3-hide-small">ABOUT</a>
+  <a href="#instructions" class="w3-bar-item w3-button w3-padding-large w3-hide-small">INSTRUCTIONS</a>
+  <a href="javascript:void(0)" class="w3-padding-large w3-hover-red w3-hide-small w3-right"><i class="fa fa-search"></i></a>
+</div>
+
+<!-- Page content -->
+<div class="w3-content" style="max-width:2000px;margin-top:46px">
+
+  <!-- Automatic Slideshow Images -->
+  <div class="mySlides w3-display-container w3-center">
+    <img src="http://bodypreference.com/wp-content/uploads/2017/03/breakfast-juice-fruit-cereal-bowl.jpg" style="width:90%">
+    <div class="w3-display-bottommiddle w3-container w3-text-black w3-padding-32 w3-hide-small">
+      <h3><button class="w3-button w3-orange w3-text-black w3-margin-bottom" onclick="document.getElementById('signUp').style.display='block'">Sign Up</button></h3>
+      <p style = "font-size:16px"><b>Enjoy Our Delicious Breakfast Options</b></p>
+    </div>
+  </div>
+  <div class="mySlides w3-display-container w3-center">
+    <img src="https://greatist.com/sites/default/files/styles/article_main/public/Hello%20Fresh.jpg?itok=NAtPAxuB" style="width:90%">
+    <div class="w3-display-bottommiddle w3-container w3-text-black w3-padding-32 w3-hide-small">
+      <p style = "font-size:16px"><b>Enjoy Our Delicious Dinner Options</b></p>
+    </div>
+  </div>
+  <div class="mySlides w3-display-container w3-center">
+    <img src="http://www.newyou.com/wp-content/uploads/2016/04/Cover-Healthy-Lunch.png" style="width:90%">
+    <div class="w3-display-bottommiddle w3-container w3-text-black w3-padding-32 w3-hide-small">
+      <p style = "font-size:16px"><b>Enjoy Our Delicious Lunch Options</b></p>
+    </div>
+  </div>
+
+  <!-- The About Section -->
+
+  <div class="w3-container w3-content w3-center w3-padding-64" style="max-width:800px" id="about">
+
+    <h2 class="w3-wide" style = "border:1px solid">ABOUT MMM! SO GOOD</h2>
+    <p class="w3-opacity"><b><i>"Good Food is Good for the Soul" - All Mothers Around the World<b></i></p>
+    <p class="w3-justify"> Mmm So Good is an interactive website that allows users to access healthy recipes for every diet type, including alternative options such as gluten-free and vegetarian cuisines. Users have the option to create a profile that allows them to store their favorite recipes for future easy quick access. </p>
+    <div class="w3-row w3-padding-32">
+      <div class="w3-third">
+        <p><b>OPTIONS</p>
+        <img src="https://pbs.twimg.com/profile_images/662032837135110144/z9YUJHPC.jpg" class="w3-round w3-margin-bottom" alt="Random Name" style="width:60%">
+      </div>
+      <div class="w3-third">
+        <p><b>AFFORDABLE</p>
+        <img src="https://pbs.twimg.com/profile_images/662032837135110144/z9YUJHPC.jpg" class="w3-round w3-margin-bottom" alt="Random Name" style="width:60%">
+      </div>
+      <div class="w3-third">
+        <p><b>HEALTHY</p>
+        <img src="https://pbs.twimg.com/profile_images/662032837135110144/z9YUJHPC.jpg" class="w3-round" alt="Random Name" style="width:60%">
+      </div>
+    </div>
+  </div>
+</div>
+  <!-- The Instructions Section -->
+  <div class="w3-orange" id="instructions">
+    <div class="w3-container w3-content w3-padding-64" style="max-width:800px">
+      <h2 class="w3-wide w3-center w3-text-black">INSTRUCTIONS</h2>
+      <p class="w3-opacity w3-center"><b><i>Check Out How to Use Our Site</i></p><br>
+
+
+
+      <div class="w3-row-padding w3-padding-32" style="margin:0 -16px">
+        <div class="w3-third w3-margin-bottom">
+          <img src="userProfile.png"  style="width:100%">
+          <div class="w3-container w3-white">
+            <p><b>User Profile</b></p>
+            <p>Store your contact information and receive email updates about new meals!</p>
+          </div>
+        </div>
+        <div class="w3-third w3-margin-bottom">
+          <img src="recipes.png"  style="width:100%">
+          <div class="w3-container w3-white">
+            <p><b>Recipes</b></p>
+            <p>Find a variety of recipes to prepare based upon different categories that fit your taste.</p>
+
+          </div>
+        </div>
+        <div class="w3-third w3-margin-bottom">
+          <img src="favorites.png"  style="width:100%">
+          <div class="w3-container w3-white">
+            <p><b>Favorites</b></p>
+            <p>Keep track of your favorite meals by category.
+            <br>
+          <br>
+        <br>         </p>
+          </div>
+        </div>
+      </div>
+    </div>
+
+  <!-- The Contact Section -->
+
+
+<!-- End Page Content -->
+</div>
+<!--
+To use this code on your website, get a free API key from Google.
+Read more at: https://www.w3schools.com/graphics/google_maps_basic.asp
+-->
+
+
+
+<script>
+// Automatic Slideshow - change image every 4 seconds
+var myIndex = 0;
+carousel();
+function carousel() {
+    var i;
+    var x = document.getElementsByClassName("mySlides");
+    for (i = 0; i < x.length; i++) {
+       x[i].style.display = "none";
+    }
+    myIndex++;
+    if (myIndex > x.length) {myIndex = 1}
+    x[myIndex-1].style.display = "block";
+    setTimeout(carousel, 4000);
+}
+// Used to toggle the menu on small screens when clicking on the menu button
+function myFunction() {
+    var x = document.getElementById("navDemo");
+    if (x.className.indexOf("w3-show") == -1) {
+        x.className += " w3-show";
+    } else {
+        x.className = x.className.replace(" w3-show", "");
+    }
+}
+// When the user clicks anywhere outside of the modal, close it
+var modal = document.getElementById('ticketModal');
+window.onclick = function(event) {
+  if (event.target == modal) {
+    modal.style.display = "none";
+  }
+}
+</script>
+
+</body>
+</html>
